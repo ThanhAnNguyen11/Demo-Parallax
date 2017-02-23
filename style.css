@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+#section1, #section4{
+	background-image: url('img_parallax.jpg');
+}
+#section2{
+	background-image: url('img_parallax2.jpg');
+}
+#section3{
+	background-image: url('img_parallax3.jpg');
+}
+.content-1{
+	line-height: 50px;
+	top: 45%;
+	opacity: 0.8;
+	background: #000;
+	position: absolute;
+	right: 0;
+	/*left: 50%;
+  	transform: translateX(-50%);*/
+}
+.content-1 h1, .content-3 h1{
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 5px;
+	padding: 10px;
+}
+.parallax-demo{
+	min-height: 50%;
+	background-color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+.parallax-demo h3{
+	color: #000;
+	padding: 50px 0 75px 0;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.parallax-demo p{
+	color: #000;
+	padding: 0 100px 25px 100px;
+}
+.section3-top, .section3-bottom{
+	color: #fff;
+	height: 20%;
+	background-color: #000;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+}
+.section3-top p, .section3-bottom p{
+	padding: 60px;
+
+}
+.section3-middle{
+	height: 60%;
+	font-family: 'Raleway', sans-serif;
+}
+.section3-middle h1{
+	padding-top: 20%;
+	color: #fff;
+	letter-spacing: 15px;
+	text-align: center;
+}
+.content-3{
+	line-height: 50px;
+	opacity: 0.8;
+	background: #000;
+	position: absolute;
+	left: 50%;
+  	transform: translateX(-50%);
+  	margin-top: 20%;
+}
+section{
+	/*full height*/
+	height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    opacity: 0.65;
+}
+body, html{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+div, p, h1, h3{
+	margin: 0;
+	padding: 0;
+}
+nav {
+	position: fixed;
+	left: 0;
+	top: 20%;
+	z-index: 999;
+	/*background: #000;
+	opacity: 0.65;*/
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	list-style: none;
+	width: 100px;
+}
+a {
+	color: #fff;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 20px 10px 20px 10px;
+	display: block;
+	transition: font 0.3s ease;
+	transition: border-bottom 0.3 ease;
+	border-bottom: 0.5px solid #000;
+}
+a:first-child{
+	border-top: 0.5px solid #000;
+}
+.active {
+	/*color: #000;
+	background: #fff;*/
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}
