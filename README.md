@@ -1,2 +1,1 @@
-# thanhannguyen.github.io
-Deploy page
+# Demo Parallax Scrolling
