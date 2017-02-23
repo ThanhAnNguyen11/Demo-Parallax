@@ -5,9 +5,11 @@
 }
 #section2{
 	background-image: url('img_parallax2.jpg');
+	height: 110% !important;
 }
 #section3{
 	background-image: url('img_parallax3.jpg');
+	height: 110% !important;
 }
 .content-1{
 	line-height: 50px;
